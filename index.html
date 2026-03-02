@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Royal Feast | Premium Restaurant</title>
+<head>
+<meta charset="UTF-8">
+
+<title>Royal Feast | Premium Restaurant & Fine Dining Experience</title>
+
+<!-- GOOGLE SEO -->
+<meta name="description" content="Royal Feast is a premium luxury restaurant offering fine dining, authentic Indian cuisine, hygienic food, and 5-star service. Enjoy royal ambience, delicious meals, and unforgettable dining experience.">
+
+<meta name="keywords" content="
+Royal Feast restaurant,
+premium restaurant,
+luxury restaurant India,
+fine dining restaurant,
+best restaurant near me,
+Indian restaurant,
+veg non veg restaurant,
+best biryani restaurant,
+family restaurant,
+5 star restaurant,
+top rated restaurant,
+online food order,
+restaurant booking
+">
+
+<meta name="author" content="Royal Feast Restaurant">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SOCIAL PREVIEW (OPTIONAL BUT PRO) -->
+<meta property="og:title" content="Royal Feast | Premium Restaurant">
+<meta property="og:description" content="Experience luxury dining with authentic taste and premium service at Royal Feast.">
+<meta property="og:type" content="website">
+</head>
+
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background:#f5f5f5;
+  color:#333;
+}
+
+/* NAVBAR */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#111;
+  padding:15px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+}
+nav h1{
+  color:#ffb703;
+  font-size:26px;
+}
+nav ul{
+  list-style:none;
+  display:flex;
+}
+nav ul li{
+  margin-left:25px;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-size:16px;
+}
+nav ul li a:hover{
+  color:#ffb703;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:
+  linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+}
+.hero h2{
+  font-size:55px;
+}
+.hero p{
+  font-size:20px;
+  margin:15px 0;
+}
+.hero button{
+  padding:15px 35px;
+  border:none;
+  background:#ffb703;
+  font-size:18px;
+  cursor:pointer;
+}
+
+/* SECTION */
+section{
+  padding:90px 8%;
+}
+section h3{
+  text-align:center;
+  font-size:38px;
+  margin-bottom:40px;
+}
+
+/* ABOUT */
+.about{
+  background:#fff;
+}
+.about-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+.about img{
+  width:100%;
+  border-radius:15px;
+}
+.about p{
+  font-size:18px;
+  line-height:1.7;
+}
+
+/* MENU */
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+}
+.menu-card{
+  background:#fff;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+.menu-card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+.menu-card div{
+  padding:20px;
+}
+.menu-card span{
+  color:#ffb703;
+  font-weight:bold;
+}
+
+/* RATINGS */
+.ratings{
+  background:#111;
+  color:#fff;
+  text-align:center;
+}
+.rating-box{
+  max-width:900px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+.review{
+  background:#1c1c1c;
+  padding:25px;
+  border-radius:12px;
+}
+.review h4{
+  margin-top:10px;
+  color:#ffb703;
+}
+
+/* CART */
+.cart{
+  background:#fff;
+  text-align:center;
+}
+.cart p{
+  font-size:18px;
+  max-width:700px;
+  margin:auto;
+}
+
+/* CONTACT */
+.contact{
+  background:#111;
+  color:#fff;
+}
+.contact form{
+  max-width:500px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+}
+.contact input,.contact textarea{
+  margin:10px 0;
+  padding:14px;
+  border:none;
+  font-size:16px;
+}
+.contact button{
+  background:#ffb703;
+  border:none;
+  padding:15px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>Royal Feast</h1>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#cart">Cart</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- HOME -->
+<div class="hero" id="home">
+  <div>
+    <h2>Luxury Dining Experience</h2>
+    <p>Authentic Taste • Premium Ambience • 5 Star Service</p>
+    <button>Order Now</button>
+  </div>
+</div>
+
+<section class="nearby-restaurants">
+  <h2>Best Restaurants Near Me</h2>
+  
+  
+
+  <p>
+    Discover the top-rated restaurants near you offering delicious food,
+    great ambiance, and excellent service. Perfect for family dinners,
+    friends hangouts, and quick bites.
+  </p>
+
+  <ul>
+    <li>🍽️ Multi-Cuisine Restaurants</li>
+    <li>🔥 Affordable & Premium Dining</li>
+    <li>⭐ Top Rated by Customers</li>
+    <li>🚗 Easy Location & Parking</li>
+  </ul>
+</section>
+<!-- Premium Restaurant Section -->
+<section class="premium-restaurant">
+  <h2>Premium Restaurant  ⭐ 4.9 Rating</h2>
+  <p class="section-desc">
+    Experience fine dining with luxury ambience, premium service,
+    and world-class cuisine crafted by expert chefs.
+  </p>
+  
+
+  <section style="max-width:1100px;margin:auto;padding:20px;background:#f5f5f5;">
+
+  <h2 style="margin-bottom:20px;">Authentic Indian Restaurant</h2>
+
+  <div style="display:flex;gap:25px;align-items:flex-start;flex-wrap:wrap;">
+
+    <!-- LEFT IMAGE -->
+    <img
+      src="https://images.unsplash.com/photo-1589302168068-964664d93dc0"
+      alt="Indian Restaurant Food"
+      style="width:100%;max-width:420px;border-radius:10px;">
+
+    <!-- RIGHT CONTENT (BLACK BACKGROUND) -->
+    <div style="
+      flex:1;
+      min-width:270px;
+      background:#000;
+      color:#fff;
+      padding:22px;
+      border-radius:12px;
+    ">
+
+      <h3 style="margin-top:0;">Traditional Taste of India</h3>
+      <p>
+        Experience authentic Indian flavors crafted with traditional
+        recipes, fresh ingredients, and aromatic spices that bring
+        the true taste of India to your plate.
+      </p>
+
+      <h3>Wide Variety of Indian Dishes</h3>
+      <p>
+        Our menu includes North and South Indian favorites such as
+        Butter Chicken, Paneer Tikka, Biryani, Dal Makhani, Dosa,
+        Idli, and freshly baked naan.
+      </p>
+
+      <h3>Comfortable Dining Experience</h3>
+      <p>
+        Enjoy a simple yet elegant ambience with comfortable seating
+        and friendly service—perfect for family dinners and
+        special occasions.
+      </p>
+
+      <h3>Rating & Timings</h3>
+      <p>
+        ⭐⭐⭐⭐⭐ 4.8 / 5 Rating<br>
+        🕒 Open Daily: 11 AM – 11 PM
+      </p>
+
+    </div>
+  </div>
+
+</section>
+      <button>Reserve a Table</button>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  .premium-restaurant {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #e6e4e4, #000000);
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .premium-restaurant h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  .section-desc {
+    max-width: 750px;
+    margin: auto;
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 45px;
+  }
+
+  .restaurant-card {
+    max-width: 950px;
+    margin: auto;
+    background: #fff;
+    color: #222;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .restaurant-card img {
+    width: 100%;
+    max-width: 480px;
+    object-fit: cover;
+  }
+
+  .restaurant-content {
+    padding: 35px;
+    text-align: left;
+    flex: 1;
+  }
+
+  .restaurant-content h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .restaurant-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #444;
+  }
+
+  .features {
+    font-weight: 600;
+    color: #000;
+  }
+
+  .restaurant-content button {
+    margin-top: 15px;
+    padding: 14px 32px;
+    background: #c9a24d;
+    color: #111;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .restaurant-content button:hover {
+    background: #b08c3a;
+  }
+
+  @media (max-width: 768px) {
+    .restaurant-card {
+      flex-direction: column;
+    }
+
+    .restaurant-card img {
+      height: 260px;
+    }
+  }
+</style>
+<!-- ABOUT -->
+<section class="about" id="about">
+<h3>About Our Restaurant</h3>
+<div class="about-grid">
+  <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9">
+  <p>
+    Royal Feast is a premium dining restaurant offering world-class cuisine
+    with an elegant atmosphere. Our chefs are internationally trained and
+    focus on quality, hygiene, and authentic taste.  
+    <br><br>
+    We believe dining is not just about food — it's about experience,
+    comfort, and memories.
+  </p>
+</div>
+</section>
+
+
+<!-- MENU -->
+<section id="menu">
+<h3>Our Signature Dishes</h3>
+<div class="menu-grid">
+
+<div class="menu-card">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+<div>
+<h4>Paneer Royal</h4>
+<p>Rich creamy gravy with royal spices.</p>
+<span>₹320</span>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="Rogan Josh — One Pot Pia.jpeg">
+<div>
+<h4>Chicken Biryani</h4>
+<p>Slow-cooked basmati rice & spices.</p>
+<span>₹380</span>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950">
+<div>
+<h4>Luxury Veg Thali</h4>
+<p>Complete Indian fine-dining platter.</p>
+<span>₹420</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- RATINGS -->
+<section class="ratings">
+<h3>Customer Reviews</h3>
+<div class="rating-box">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Amazing food and premium service!</p>
+<h4>- Rahul Mehta</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Best fine dining experience in city.</p>
+<h4>- Anjali Sharma</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Ambience & taste both top-class.</p>
+<h4>- Aman Verma</h4>
+</div>
+
+</div>
+</section>
+<!-- Best Restaurant Near Me Section -->
+<section class="best-restaurant">
+  <h2>Best Restaurant Near Me</h2>
+  <p class="section-desc">
+    Discover top-rated restaurants near you offering delicious food,
+    premium ambience, and excellent customer service.
+  </p>
+
+  <div class="restaurant-card">
+    <img 
+      src="https://images.unsplash.com/photo-1552566626-52f8b828add9"
+      alt="Best Restaurant Near Me">
+
+    <div class="restaurant-content">
+      <h3>Royal Taste Restaurant</h3>
+
+      <p>
+        Royal Taste Restaurant is known for its mouth-watering dishes,
+        hygienic kitchen, and peaceful atmosphere. Whether you are
+        looking for family dining, romantic dinners, or casual hangouts,
+        this restaurant offers the perfect experience.
+      </p>
+
+      <p>
+        ⭐ 4.8 Rating | 🍽️ Multi-Cuisine | 🕒 Open: 10 AM – 11 PM
+      </p>
+
+      <button>View Menu</button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .best-restaurant {
+    padding: 50px 20px;
+    background: #f5f5f5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .best-restaurant h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .section-desc {
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+  .restaurant-card {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .restaurant-card img {
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .restaurant-content {
+    padding: 30px;
+    text-align: left;
+    flex: 1;
+  }
+
+  .restaurant-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .restaurant-content p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .restaurant-content button {
+    padding: 12px 25px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .restaurant-content button:hover {
+    background: #c92d3a;
+  }
+
+  @media (max-width: 768px) {
+    .restaurant-card {
+      flex-direction: column;
+    }
+
+    .restaurant-card img {
+      max-width: 100%;
+      height: 250px;
+    }
+  }
+</style>
+
+<!-- CART -->
+<section class="cart" id="cart">
+<h3>Your Cart</h3>
+<p>
+Cart feature can be integrated with JavaScript or backend.
+Currently this section represents future online ordering functionality.
+</p>
+</section>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+.footer{
+  background:#111;
+  color:#fff;
+  padding-top:50px;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding:0 20px;
+}
+
+/* Left Sections */
+.footer-brand,
+.footer-contact,
+.footer-hours,
+.footer-keyword-box{
+  flex:1;
+  min-width:230px;
+  margin-bottom:30px;
+}
+
+.footer-brand h2{
+  font-size:28px;
+  color:#d4af37;
+  margin-bottom:10px;
+}
+
+.footer-brand p{
+  color:#ccc;
+  font-size:14px;
+}
+
+.footer h3{
+  color:#d4af37;
+  margin-bottom:12px;
+  font-size:18px;
+}
+
+.footer p{
+  font-size:14px;
+  color:#ccc;
+  line-height:1.8;
+}
+
+/* Keyword Right Box */
+.footer-keyword-box{
+  text-align:right;
+}
+
+.footer-keyword-box h3{
+  font-size:18px;
+}
+
+.footer-keywords{
+  font-size:12px;
+  color:#999;
+  line-height:1.6;
+}
+
+.footer-bottom{
+  background:#000;
+  text-align:center;
+  padding:15px 10px;
+  border-top:1px solid #222;
+  font-size:13px;
+  color:#aaa;
+}
+
+@media(max-width:900px){
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+  }
+  .footer-keyword-box{
+    text-align:center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h2>Royal Feast</h2>
+      <p>Premium Restaurant & Fine Dining Experience</p>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us – Near Me</h3>
+      <p>📍 Royal Feast Restaurant-jaipue gt mall, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉️ royalfeast@gmail.com</p>
+    </div>
+    
+
+    <div class="footer-hours">
+      <h3>Opening Hours</h3>
+      <p>Monday – Sunday</p>
+      <p>11:00 AM – 11:00 PM</p>
+    </div>
+
+    <!-- RIGHT SIDE KEYWORDS -->
+    <div class="footer-keyword-box">
+      <h3>Popular Searches</h3>
+      <p class="footer-keywords">
+        Royal Feast restaurant, premium restaurant, luxury restaurant India,
+        fine dining restaurant, best restaurant near me, Indian restaurant,
+        veg non veg restaurant, best biryani restaurant, family restaurant,
+        5 star restaurant, top rated restaurant, online food order,
+        restaurant booking
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Royal Feast. All Rights Reserved.
+  </div>
+</footer>
+
+</body>
+</html>
+
